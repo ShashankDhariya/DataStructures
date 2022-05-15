@@ -72,6 +72,7 @@ int main()
                     break;
             case 4 :cout<<"EXITING...";
                     break;
+            default:cout<<"Enter valid choice"<<endl;
        }
     }while(choice != 4);
     return 0;
